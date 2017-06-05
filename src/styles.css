@@ -1,6 +1,23 @@
 /* You can add global styles to this file, and also import other style files */
 @import '~bootstrap/dist/css/bootstrap.min.css';
 @import '~@angular/material/prebuilt-themes/pink-bluegrey.css';
+
+#view-fab {
+     position: fixed;
+     display: block;
+     right: 0;
+     bottom: 0;
+     margin-right: 40px;
+     margin-bottom: 40px;
+     z-index: 900;
+   }
 .fill-space{
     flex: 1 1 auto;
+}
+
+.md-center-txt{
+  text-align:center;
+}
+.mat-list-icon {
+  color: rgba(0, 0, 0, 0.54);
 }
