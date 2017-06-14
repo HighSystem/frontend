@@ -21,7 +21,7 @@ import { AppComponent } from './app.component';
 *     modules of  your app
 *************************************************
 */
-
+import {  WelcomeModule } from "./welcome/welcome.module";
 /*
 ************************************************
 *     services of  your app
@@ -47,7 +47,8 @@ import { AppComponent } from './app.component';
     BrowserModule,
     MyMaterialModule,
     BrowserAnimationsModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    WelcomeModule
 
   ],
   providers: [],
