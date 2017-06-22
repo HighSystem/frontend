@@ -49,7 +49,7 @@ import {  WelcomeModule } from "./welcome/welcome.module";
     BrowserAnimationsModule,
     ReactiveFormsModule,
     WelcomeModule
-
+    
   ],
   providers: [],
   bootstrap: [AppComponent]

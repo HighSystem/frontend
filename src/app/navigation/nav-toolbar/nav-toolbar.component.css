@@ -1,0 +1,7 @@
+#main-toolbar {
+    left: 0;
+    top: 0;
+    
+    position: fixed;
+    display: block;
+}

@@ -12,9 +12,8 @@ export class NavToolbarComponent implements OnInit {
   ngOnInit() {
   }
 
-  menu(menu){
-    alert(menu)
-
+  menu(){
+    alert("alerta");
   }
 
 }

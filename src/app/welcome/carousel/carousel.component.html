@@ -1,3 +1,10 @@
-<p>
-  carousel works!
-</p>
+<div class="mat-elevation-z1">
+<swiper [config]="config" >
+    <div class="swiper-wrapper">
+        <img class="swiper-slide" *ngFor="let image of images" [src]="image">
+    </div>
+    <div class="swiper-pagination"></div>
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+</swiper>
+</div>
