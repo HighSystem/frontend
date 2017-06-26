@@ -1,6 +1,12 @@
 #main-toolbar {
     left: 0;
     top: 0;
+    z-index: 1030;
     position: fixed;
     display: block;
+}
+#menu-toolbar {
+
+    z-index: 1032;
+
 }
