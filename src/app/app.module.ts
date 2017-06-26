@@ -1,6 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { ReactiveFormsModule } from '@angular/forms'
+import { MaterialModule} from '@angular/material';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import 'hammerjs';
 
@@ -9,7 +10,7 @@ import 'hammerjs';
 *    Material modules for app
 *************************************************
 */
-import { MyMaterialModule } from './app.material';
+//import { MyMaterialModule } from './app.material';
 /*
 ************************************************
 *     principal component
@@ -21,7 +22,7 @@ import { AppComponent } from './app.component';
 *     modules of  your app
 *************************************************
 */
-
+import {  WelcomeModule } from "./welcome/welcome.module";
 /*
 ************************************************
 *     services of  your app
@@ -45,9 +46,10 @@ import { AppComponent } from './app.component';
   ],
   imports: [
     BrowserModule,
-    MyMaterialModule,
+    MaterialModule,
     BrowserAnimationsModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    WelcomeModule
 
   ],
   providers: [],
