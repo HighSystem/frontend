@@ -6,13 +6,19 @@ import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import 'hammerjs';
 import { SwiperModule } from 'angular2-useful-swiper';
 
+/*
+************************************************
+*     modules of  your app
+*************************************************
+*/
+import { NavigationModule } from '../navigation/navigation.module';
+
 import { WelcomeRoutingModule } from './welcome-routing.module';
 import { IndexComponent } from './index/index.component';
 import { AboutComponent } from './about/about.component';
 import { PortfolioComponent } from './portfolio/portfolio.component';
 import { ContactComponent } from './contact/contact.component';
 import { CarouselComponent } from './carousel/carousel.component';
-import { NavToolbarComponent } from '../navigation/nav-toolbar/nav-toolbar.component';
 
 
 @NgModule({
@@ -22,9 +28,10 @@ import { NavToolbarComponent } from '../navigation/nav-toolbar/nav-toolbar.compo
     BrowserAnimationsModule,
     MaterialModule,
     BrowserModule,
-    SwiperModule
+    SwiperModule,
+    NavigationModule
   ],
-  declarations: [IndexComponent, AboutComponent, PortfolioComponent, ContactComponent, CarouselComponent, NavToolbarComponent],
+  declarations: [IndexComponent, AboutComponent, PortfolioComponent, ContactComponent, CarouselComponent],
   exports:[IndexComponent]
 })
 export class WelcomeModule { }

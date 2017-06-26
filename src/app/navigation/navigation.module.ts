@@ -16,6 +16,7 @@ import { NavFooterComponent } from './nav-footer/nav-footer.component';
     BrowserAnimationsModule,
     MaterialModule
   ],
-  declarations: [NavToolbarComponent, NavFooterComponent]
+  declarations: [NavToolbarComponent, NavFooterComponent],
+  exports:[NavToolbarComponent]
 })
 export class NavigationModule { }

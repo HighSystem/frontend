@@ -3,6 +3,7 @@ import { NgModule } from '@angular/core';
 import { ReactiveFormsModule } from '@angular/forms'
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import 'hammerjs';
+import { SwiperModule } from 'angular2-useful-swiper';
 
 /*
 ************************************************
@@ -48,7 +49,8 @@ import {  WelcomeModule } from "./welcome/welcome.module";
     MyMaterialModule,
     BrowserAnimationsModule,
     ReactiveFormsModule,
-    WelcomeModule
+    WelcomeModule,
+    SwiperModule
     
   ],
   providers: [],
