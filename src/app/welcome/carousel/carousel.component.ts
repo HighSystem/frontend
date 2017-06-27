@@ -19,10 +19,10 @@ export class CarouselComponent implements OnInit {
             nextButton: '.swiper-button-next',
             prevButton: '.swiper-button-prev',
             zoom: true,
-             loop: true,
+            loop: true,
             freeMode: true,
-            autoplay: 2500,
-            spaceBetween: 30,
+            autoplay: 3000,
+            spaceBetween: 2,
             effect: 'coverflow',
             // Disable preloading of all images
             preloadImages: false,

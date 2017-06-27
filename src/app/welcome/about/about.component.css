@@ -1,0 +1,9 @@
+.bg-img-card-about{
+    background-image: url('http://lorempixel.com/1200/1200/nature/1');
+    background-repeat: no-repeat;
+    background-size: cover; 
+    height: 400px;
+}
+#hs-about{
+    padding-top: 60px;
+}
